@@ -28,10 +28,12 @@ Step1 : Create on initializer
 	These env you can get from http://api.myverifiedid.com
 
 Step2: Add routes
-	In your config/routes.rb
 	
-	match '/auth/:provider/callback' => 'sessions#create'
-  match 'auth/failure', to: redirect('/')
+		In your config/routes.rb
+	
+		match '/auth/:provider/callback' => 'sessions#create'
+  	match 'auth/failure', to: redirect('/')
+
 
 
 ## Contributing

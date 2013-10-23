@@ -17,8 +17,22 @@ Or install it yourself as:
     $ gem install myverifiedid
 
 ## Usage
+Step1 : Create on initializer
 
-TODO: Write usage instructions here
+	config/initializers/omniauth.rb
+
+	Rails.application.config.middleware.use OmniAuth::Builder do
+		provider "myverifiedid" , ENV["OAUTH_ID"], ENV["OAUTH_SECRET"], :scope => "email"
+	end
+
+	These env you can get from http://api.myverifiedid.com
+
+Step2: Add routes
+	In your config/routes.rb
+	
+	match '/auth/:provider/callback' => 'sessions#create'
+  match 'auth/failure', to: redirect('/')
+
 
 ## Contributing
 

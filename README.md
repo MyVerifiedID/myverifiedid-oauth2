@@ -1,6 +1,7 @@
 # Myverifiedid
-
-TODO: Write a gem description
+   This gem provides login with MYVERIFIEDID.
+   Following are the details to configure this gem with rails application.
+   Feel free to contact us support@myverifiedid.com for any configuration related issues.
 
 ## Installation
 
@@ -25,7 +26,8 @@ Step1 : Create one initializer
 	To get OAUTH_ID AND OAUTH_SECRET environment variables, please contact to support@myverifiedid.com
 	provide following details:
 	website url: 
-	and you contact details or open this https://myverifiedid.com/contacts snad send your request.
+	and your contact details or 
+	open this https://myverifiedid.com/contacts snad send your request.
 
 Step2: Add routes
 	

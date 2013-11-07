@@ -36,6 +36,11 @@ Step2: Add routes
 	match '/auth/:provider/callback' => 'session#create'
   	match 'auth/failure', to: redirect('/')
 
+Step3: Add a link to login
+	
+	<%= link_to "Login with MYVERIFIEDID", "/auth/myverifiedid" %>
+	
+
 
 
 ## Contributing

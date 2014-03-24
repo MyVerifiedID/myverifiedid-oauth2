@@ -7,6 +7,8 @@
 
 Add this line to your application's Gemfile:
 
+		gem 'omniauth-oauth2'
+		
     gem 'myverifiedid', :git => "git@github.com:didiergrossemy/myverifiedid-oauth2.git"
 
 And then execute:

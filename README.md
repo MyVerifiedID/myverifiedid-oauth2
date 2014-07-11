@@ -12,7 +12,7 @@ Add this line to your application's Gemfile:
 	------------------OR-----------------------
 
 	gem 'omniauth-oauth2'
-  gem 'myverifiedid', :git => "git@github.com:didiergrossemy/myverifiedid-oauth2.git"
+        gem 'myverifiedid', :git => "git@github.com:didiergrossemy/myverifiedid-oauth2.git"
 
 And then execute:
 

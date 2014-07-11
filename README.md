@@ -6,14 +6,17 @@
 ## Installation
 
 Add this line to your application's Gemfile:
-
-		gem 'omniauth-oauth2'
 		
-    gem 'myverifiedid', :git => "git@github.com:didiergrossemy/myverifiedid-oauth2.git"
+	gem 'omniauth-oauth2'
+	gem 'myverifiedid', '~> 0.0.2'
+	------------------OR-----------------------
+
+	gem 'omniauth-oauth2'
+  gem 'myverifiedid', :git => "git@github.com:didiergrossemy/myverifiedid-oauth2.git"
 
 And then execute:
 
-    $ bundle
+    $ bundle install
 
 
 ## Usage
